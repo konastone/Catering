@@ -1,0 +1,131 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.top{
+    background: url(images/sandwish1.jpg) no-repeat center/cover; 
+    width: 100%; 
+    height: 750px;
+
+}
+.top h1{
+    padding-top: 620px;
+    font-size: 60px;
+    padding-left: 30px;
+    float: left;
+    color: white;
+}
+
+.s2{
+    background-color: yellow;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+.s2 .text{
+    text-align: center;
+    padding-right: 40px;
+}
+
+.s2 .text h1{
+    padding-bottom: 30px;
+}
+
+.s2 img{
+    padding-top: 100px;
+    padding-right: 40px;
+    padding-bottom: 100px;
+    padding-left: 100px;
+    
+}
+
+.menu{
+    background-color: brown;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+
+}
+
+.menu img{
+    padding-left: 300px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    padding-right: 60px;
+}
+
+.menu .text{
+    color: white;
+    /* padding-right: 40px;
+    padding-left: 40px; */
+    
+}
+
+.menu .text h2{
+    padding-bottom: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 15px;
+}
+
+.menu .text h1{
+    padding-bottom: 50px;
+    padding-left: 80px;
+    font-size: 60px;
+    font-weight: 700;
+    
+}
+
+.menu .text p{
+    padding-bottom: 20px;
+    /* font-size: 20px; */
+    padding-left: 30px;
+}
+
+.contact h1{
+    padding: 35px;
+    font-weight: 600;
+}
+
+.contact p{
+    padding-left: 60px;
+    padding-bottom: 50px;
+}
+
+.contact .form input{
+    border-bottom: solid;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    width: 50%;
+    margin-bottom: 30px;
+    padding-top: 20px;
+}
+
+.form{
+    padding-left: 60px;
+}
+
+button{
+    padding: 12px;
+    margin-left: 70px;
+    margin-bottom: 50px;
+    color: black;
+    background-color: whitesmoke;
+    border: none;
+}
+
+.footer{
+    background-color: whitesmoke;
+    justify-content: center;
+    
+}
+
+.footer p{
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 80px;
+}
